@@ -1,0 +1,45 @@
+.guaranty {
+    max-width: 1400px;
+    margin: 0 auto 100px;
+}
+
+.guaranty__container {
+    background-color: #222222;
+    border-radius: 30px;
+}
+
+.guaranty__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    padding: 100px 0 100px;
+    text-align: center;
+    margin: 0;
+}
+
+.guaranty__wrap {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 0 200px;
+}
+
+.guaranty__wrapper {
+    
+}
+
+.guaranty__image {
+    background-image: url(../../images/garanty.png);
+    width: 1005px;
+    height: 490px;
+    background-position: center center;
+}
+@media screen and (max-width: 1050px) {
+    .guaranty__image {
+        background-image: url(../../images/garanty__mob.png);
+        width: 391px;
+        height: 255px;
+        background-position: center center;
+    }
+}

@@ -1,0 +1,10 @@
+@import url('../../vendor/fonts/fonts.css');
+
+.page {
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  margin: 0 auto;
+}
+.container {
+  background-color: #2D2D2D;
+  /* background: linear-gradient(#424242, #232323); */
+}

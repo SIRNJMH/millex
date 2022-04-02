@@ -1,0 +1,46 @@
+.image {
+    max-width: 1400px;
+    margin: 0 auto 100px;
+}
+
+.image__container {
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+.image__logo {
+    width: 1400px;
+    height: 500px;
+    z-index: 2;
+    border-radius: 30px;
+    background-image: url(../../images/main__logo1.svg);
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+@media screen and (max-width: 725px) {
+    .image__logo {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width: 535px) {
+    .image__logo {
+        font-size: 13px;
+        line-height: 16px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .image__logo {
+        font-size: 11px;
+        line-height: 13px;
+    }
+}
