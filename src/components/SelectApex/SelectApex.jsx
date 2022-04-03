@@ -54,7 +54,7 @@ function SelectApex() {
                 <a className="select__wrapper_link" href="https://www.millex.fun/payitem/30" target="_blank">
                     <div className="select__wrapper_prices-price">
                         <p className="select__wrapper_prices-day">30 дней</p>
-                        <p className="select__wrapper_prices-day">690₽</p>
+                        <p className="select__wrapper_prices-day">790₽</p>
                     </div>
                 </a>
             </div>

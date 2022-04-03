@@ -11,7 +11,7 @@ function Header() {
         <div className="header__wrapper">
           <Link className="header__link" to="/"><div className="header__logo" /></Link>
           <Link2 className="header__link" to="game" smooth={true} offset={70} duration={500}><p className="header__text">Каталог игр</p></Link2>
-          <a className="header__link" href="https://discord.gg/FxA2unWC" target="_blank"><p className="header__text">Поддержка</p></a>
+          <a className="header__link" href="https://discord.gg/millexcheats" target="_blank"><p className="header__text">Поддержка</p></a>
           <Link className="header__link" to="/guaranty"><p className="header__text">Наши гарантии</p></Link>
         </div>
         <div className="header__wrapper">
@@ -27,13 +27,13 @@ function Header() {
                 </svg>
               </a>
 
-              <a className="header__link_image" href="https://discord.gg/FxA2unWC" target="_blank">
+              <a className="header__link_image" href="https://discord.gg/millexcheats" target="_blank">
                 <svg width="27" height="27" viewBox="0 0 22 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path className="footer__image" d="M19 1.83333C19 1.83333 16.707 0.18791 14 0L13.756 0.44779C16.203 0.99733 17.326 1.78291 18.5 2.75C16.4765 1.80308 14.48 0.91666 11 0.91666C7.52 0.91666 5.5235 1.80308 3.5 2.75C4.674 1.78291 6.01 0.90933 8.244 0.44779L8 0C5.16 0.24521 3 1.83333 3 1.83333C3 1.83333 0.4395 5.23691 0 11.9166C2.58 14.6451 6.5 14.6667 6.5 14.6667L7.32 13.6656C5.928 13.2219 4.358 12.4305 3 11C4.619 12.123 7.0625 13.2917 11 13.2917C14.9375 13.2917 17.381 12.123 19 11C17.6425 12.4305 16.0725 13.2219 14.68 13.6656L15.5 14.6667C15.5 14.6667 19.42 14.6451 22 11.9166C21.5605 5.23691 19 1.83333 19 1.83333ZM7.75 10.0834C6.783 10.0834 6 9.26295 6 8.24995C6 7.23705 6.783 6.41665 7.75 6.41665C8.717 6.41665 9.5 7.23705 9.5 8.24995C9.5 9.26295 8.717 10.0834 7.75 10.0834ZM14.25 10.0834C13.283 10.0834 12.5 9.26295 12.5 8.24995C12.5 7.23705 13.283 6.41665 14.25 6.41665C15.217 6.41665 16 7.23705 16 8.24995C16 9.26295 15.217 10.0834 14.25 10.0834Z" fill="#DFDADA"/>
                 </svg>
               </a>
 
-              <a className="header__link_image" href="/" target="_blank">
+              <a className="header__link_image" href="https://www.youtube.com/channel/UCLbWc5ilJtYz6qp5yAehRpQ/featured" target="_blank">
               <svg width="27" height="27" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path className="footer__image" d="M21.7809 3.33868C21.7809 3.33868 21.566 1.82188 20.9043 1.15586C20.0664 0.2793 19.1297 0.275 18.7 0.22344C15.6234 -7.45058e-08 11.0043 0 11.0043 0H10.9957C10.9957 0 6.37656 -7.45058e-08 3.3 0.22344C2.87031 0.275 1.93359 0.2793 1.0957 1.15586C0.433984 1.82188 0.223437 3.33868 0.223437 3.33868C0.223437 3.33868 0 5.12188 0 6.90083V8.56793C0 10.3468 0.219141 12.1301 0.219141 12.1301C0.219141 12.1301 0.433984 13.6468 1.09141 14.3129C1.9293 15.1894 3.0293 15.1593 3.51914 15.2539C5.28086 15.4215 11 15.473 11 15.473C11 15.473 15.6234 15.4644 18.7 15.2453C19.1297 15.1937 20.0664 15.1894 20.9043 14.3129C21.566 13.6468 21.7809 12.1301 21.7809 12.1301C21.7809 12.1301 22 10.3511 22 8.56793V6.90083C22 5.12188 21.7809 3.33868 21.7809 3.33868ZM8.72695 10.5918V4.4086L14.6695 7.51093L8.72695 10.5918Z" fill="#DFDADA"/>
               </svg>

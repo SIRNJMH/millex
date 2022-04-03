@@ -36,7 +36,7 @@ function Cards() {
                 <div className="card__wrapper">
                     <p className="card__title">ESCAPE FROM TARKOV</p>
                     <div className="card__wrap">
-                        <p className="card__price">от 390₽</p>
+                        <p className="card__price">от 490₽</p>
                         <button className="card__button">Перейти</button>
                     </div>
                 </div>
@@ -75,7 +75,7 @@ function Cards() {
                 <div className="card__wrapper">
                     <p className="card__title">RUST</p>
                     <div className="card__wrap">
-                        <p className="card__price">от 590₽</p>
+                        <p className="card__price">от 290₽</p>
                         <button className="card__button">Перейти</button>
                     </div>
                 </div>
