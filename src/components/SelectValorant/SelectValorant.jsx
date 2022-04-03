@@ -49,21 +49,21 @@ function SelectValorant() {
 
             </div>
             <div className="select__wrapper_prices">
-                <a className="select__wrapper_link" href="/" target="_blank">
+                <a className="select__wrapper_link" href="https://millex.fun/payitem/1" target="_blank">
                     <div className="select__wrapper_prices-price">
                         <p className="select__wrapper_prices-day">1 день</p>
                         <p className="select__wrapper_prices-day">490₽</p>
                     </div>
                 </a>
                 
-                <a className="select__wrapper_link" href="/" target="_blank">
+                <a className="select__wrapper_link" href="https://millex.fun/payitem/2" target="_blank">
                 <div className="select__wrapper_prices-price">
                     <p className="select__wrapper_prices-day">7 дней</p>
                     <p className="select__wrapper_prices-day">1490₽</p>
                 </div>
                 </a>
 
-                <a className="select__wrapper_link" href="/" target="_blank">
+                <a className="select__wrapper_link" href="https://millex.fun/payitem/3" target="_blank">
                     <div className="select__wrapper_prices-price">
                         <p className="select__wrapper_prices-day">30 дней</p>
                         <p className="select__wrapper_prices-day">2990₽</p>

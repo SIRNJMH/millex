@@ -34,7 +34,7 @@ function SelectSpoofer() {
 
             </div>
             <div className="select__wrapper_prices">
-                <a className="select__wrapper_link" href="/https://millex.fun/payitem/34" target="_blank">
+                <a className="select__wrapper_link" href="https://millex.fun/payitem/34" target="_blank">
                     <div className="select__wrapper_prices-price">
                         <p className="select__wrapper_prices-day">Одноразовый</p>
                         <p className="select__wrapper_prices-day">1990₽</p>

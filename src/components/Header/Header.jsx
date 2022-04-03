@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { Link as Link2 } from "react-scroll";
 
 function Header() {
