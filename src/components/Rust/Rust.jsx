@@ -23,7 +23,7 @@ function Rust() {
             <Link className="card_game__link" to="/rust/millex">
             <img className="card_game__image" src={rust2} alt="RUST" />
             <div className="card_game__wrapper">
-                <p className="card_game__title">MILLEX RUST</p>
+                <p className="card_game__title">HOOKED.TECH</p>
                 <div className="card_game__wrap">
                     <p className="card_game__price">от 290₽</p>
                     <button className="card_game__button">Перейти</button>
