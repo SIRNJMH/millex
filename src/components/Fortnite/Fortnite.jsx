@@ -25,7 +25,7 @@ function Fortnite() {
             <div className="card_game__wrapper">
                 <p className="card_game__title">MILLEX FORTNITE</p>
                 <div className="card_game__wrap">
-                    <p className="card_game__price">от 190₽</p>
+                    <p className="card_game__price">от 290₽</p>
                     <button className="card_game__button">Перейти</button>
                 </div>
             </div>
