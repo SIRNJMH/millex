@@ -152,7 +152,7 @@
 .select__wrapper_link:hover .select__wrapper_prices-price {
     transition: linear 0.4s;
     background-color: #4FB56B;
-    border: none;
+    /* border: none; */
 }
 
 .select__wrapper_prices-day {
