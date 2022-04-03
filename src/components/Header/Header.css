@@ -17,7 +17,8 @@
 }
 
 .header__logo {
-    background-image: url(../../images/header__logo2.svg);
+    background-image: url(../../images/logo.svg);
+    /* background-image: url(../../images/header__logo2.svg); */
     width: 100px;
     height: 100px;
     border-radius: 30px;
