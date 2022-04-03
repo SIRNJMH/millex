@@ -23,7 +23,7 @@ function Spoofer() {
             <div className="card_game__wrapper">
                 <p className="card_game__title">MILLEX SPOOFER</p>
                 <div className="card_game__wrap">
-                    <p className="card_game__price">от 1290₽</p>
+                    <p className="card_game__price">от 1990₽</p>
                     <button className="card_game__button">Перейти</button>
                 </div>
             </div>
