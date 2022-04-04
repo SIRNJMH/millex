@@ -7,7 +7,7 @@ import misc from '../../images/misc.svg';
 import loot from '../../images/loot.svg';
 import { Link } from 'react-router-dom';
 
-function SelectFortnite() {
+function SelectRust2() {
   return (
     <div className="select">
       <div className="select__container">
@@ -110,24 +110,24 @@ function SelectFortnite() {
 
             </div>
             <div className="select__wrapper_prices">
-                <a className="select__wrapper_link" href="https://millex.fun/payitem/25" target="_blank">
+                <a className="select__wrapper_link" href="https://millex.fun/payitem/39" target="_blank">
                     <div className="select__wrapper_prices-price">
                         <p className="select__wrapper_prices-day">1 день</p>
-                        <p className="select__wrapper_prices-day">500₽</p>
+                        <p className="select__wrapper_prices-day">490₽</p>
                     </div>
                 </a>
                 
-                <a className="select__wrapper_link" href="https://millex.fun/payitem/26" target="_blank">
+                <a className="select__wrapper_link" href="https://millex.fun/payitem/40" target="_blank">
                 <div className="select__wrapper_prices-price">
                     <p className="select__wrapper_prices-day">7 дней</p>
-                    <p className="select__wrapper_prices-day">2000₽</p>
+                    <p className="select__wrapper_prices-day">1990₽</p>
                 </div>
                 </a>
 
-                <a className="select__wrapper_link" href="https://millex.fun/payitem/27" target="_blank">
+                <a className="select__wrapper_link" href="https://millex.fun/payitem/41" target="_blank">
                     <div className="select__wrapper_prices-price">
                         <p className="select__wrapper_prices-day">30 дней</p>
-                        <p className="select__wrapper_prices-day">4000₽</p>
+                        <p className="select__wrapper_prices-day">3990₽</p>
                     </div>
                 </a>
             </div>
@@ -137,4 +137,4 @@ function SelectFortnite() {
   );
 }
 
-export default SelectFortnite;
+export default SelectRust2;

@@ -38,7 +38,7 @@ function Rust() {
             <div className="card_game__wrapper">
                 <p className="card_game__title">HYPERAIM.GG</p>
                 <div className="card_game__wrap">
-                    <p className="card_game__price">от 700₽</p>
+                    <p className="card_game__price">от 490₽</p>
                     <button className="card_game__button">Перейти</button>
                 </div>
             </div>
