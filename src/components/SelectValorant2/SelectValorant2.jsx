@@ -40,9 +40,10 @@ function SelectValorant2() {
             <div className="select__wrapper_function">
                 <div className="select__wrapper_title">
                     <img className="select__logo" src={misc} alt="misc" />
-                    <h2 className="select__title">RADAR</h2>
+                    <h2 className="select__title">MISC</h2>
                 </div>
                 <p className="select__text">— Radar ON / OFF</p>
+                <p className="select__text">— Spoofer</p>
             </div>    
 
             </div>

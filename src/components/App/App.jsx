@@ -20,6 +20,7 @@ import SelectValorant from "../SelectValorant/SelectValorant";
 import SelectValorant2 from "../SelectValorant2/SelectValorant2";
 import SelectFortnite from "../SelectFortnite/SelectFortnite";
 import SelectRust from "../SelectRust/SelectRust";
+import SelectRust2 from "../SelectRust2/SelectRust2";
 import SelectSpoofer from "../SelectSpoofer/SelectSpoofer";
 import NotFound from "../NotFound/NotFound";
 
@@ -103,9 +104,14 @@ function App() {
           <SelectFortnite />
           <Footer />
         </Route>
-        <Route path="/rust/millex" exact>
+        <Route path="/rust/hooked" exact>
           <Header />
           <SelectRust />
+          <Footer />
+        </Route>
+        <Route path="/rust/hyperaim" exact>
+          <Header />
+          <SelectRust2 />
           <Footer />
         </Route>
         <Route path="/spoofer/millex" exact>

@@ -20,12 +20,25 @@ function Rust() {
         <div className="card_game__container">
 
         <div className="card_game">
-            <Link className="card_game__link" to="/rust/millex">
+            <Link className="card_game__link" to="/rust/hooked">
             <img className="card_game__image" src={rust2} alt="RUST" />
             <div className="card_game__wrapper">
                 <p className="card_game__title">HOOKED.TECH</p>
                 <div className="card_game__wrap">
                     <p className="card_game__price">от 290₽</p>
+                    <button className="card_game__button">Перейти</button>
+                </div>
+            </div>
+            </Link>
+        </div>
+
+        <div className="card_game">
+            <Link className="card_game__link" to="/rust/hyperaim">
+            <img className="card_game__image" src={rust1} alt="RUST" />
+            <div className="card_game__wrapper">
+                <p className="card_game__title">HYPERAIM.GG</p>
+                <div className="card_game__wrap">
+                    <p className="card_game__price">от 700₽</p>
                     <button className="card_game__button">Перейти</button>
                 </div>
             </div>
