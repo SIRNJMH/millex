@@ -47,20 +47,21 @@ function Tarkov() {
             </div>
             </Link>
         </div>
-{/* 
+
         <div className="card_game">
-            <a className="card_game__link" href="/">
+            <Link className="card_game__link" to="/tarkov/titanium">
             <img className="card_game__image" src={eft3} alt="ESCAPE FROM TARKOV" />
             <div className="card_game__wrapper">
-                <p className="card_game__title">NEKO 7 ДНЕЙ</p>
+                <p className="card_game__title">TITANIUM LITE</p>
                 <div className="card_game__wrap">
-                    <p className="card_game__price">2990₽</p>
-                    <button className="card_game__button">КУПИТЬ</button>
+                    <p className="card_game__price">от 190₽</p>
+                    <button className="card_game__button">Перейти</button>
                 </div>
             </div>
-            </a>
+            </Link>
         </div>
 
+{/*
         <div className="card_game">
             <a className="card_game__link" href="/">
             <img className="card_game__image" src={eft4} alt="ESCAPE FROM TARKOV" />

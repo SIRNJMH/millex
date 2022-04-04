@@ -13,7 +13,7 @@ function Footer() {
             <a className="footer__link" href="https://discord.gg/millexcheats" target="_blank"><p className="footer__text">Консультация</p></a>
             <Link2 className="footer__link" to="game" smooth={true} offset={-30} duration={500}><p className="footer__text">Каталог игр</p></Link2>
             <Link className="footer__link" to="/guaranty"><p className="footer__text">Гарантии</p></Link>
-            <a className="footer__link_author" href="https://t.me/rodion914" target="_blank"><p className="footer__author">&copy;2022. developer oldmilky</p></a>
+            <a className="footer__link_author" href="https://t.me/rodion914" target="_blank"><p className="footer__author">&copy;2022. Developer oldmilky</p></a>
         </div>
 
         <div className="footer__wrapper">

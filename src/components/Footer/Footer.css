@@ -69,7 +69,7 @@
     }
 }
 
-@media screen and (max-width: 445px) {
+@media screen and (max-width: 465px) {
     .footer__link_image:last-of-type {
         display: none;
     }
@@ -107,7 +107,10 @@
 }
 
 @media screen and (max-width: 500px) {
-    .footer__wrapper {
-        margin: 0 7px 0 7px;
+    .footer__wrapper:first-of-type {
+        margin: 0 0 0 15px;
+    }
+    .footer__wrapper:last-of-type {
+        margin: 0 7px 0 0;
     }
 }

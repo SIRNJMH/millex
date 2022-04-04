@@ -16,6 +16,7 @@ import SelectApex from "../SelectApex/SelectApex";
 import SelectApex2 from "../SelectApex2/SelectApex2";
 import SelectTarkov from "../SelectTarkov/SelectTarkov";
 import SelectTarkov2 from "../SelectTarkov2/SelectTarkov2";
+import SelectTarkov3 from "../SelectTarkov3/SelectTarkov3";
 import SelectValorant from "../SelectValorant/SelectValorant";
 import SelectValorant2 from "../SelectValorant2/SelectValorant2";
 import SelectFortnite from "../SelectFortnite/SelectFortnite";
@@ -87,6 +88,11 @@ function App() {
         <Route path="/tarkov/viking" exact>
           <Header />
           <SelectTarkov2 />
+          <Footer />
+        </Route>
+        <Route path="/tarkov/titanium" exact>
+          <Header />
+          <SelectTarkov3 />
           <Footer />
         </Route>
         <Route path="/valorant/aimbot" exact>
