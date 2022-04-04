@@ -35,18 +35,18 @@ function Valorant() {
             </Link>
         </div>
 
-        {/* <div className="card_game">
+        <div className="card_game">
             <Link className="card_game__link" to="/valorant/esp">
             <img className="card_game__image" src={val6} alt="VALORANT"/>
             <div className="card_game__wrapper">
                 <p className="card_game__title">MILLEX ESP</p>
                 <div className="card_game__wrap">
-                    <p className="card_game__price">от 1490₽</p>
+                    <p className="card_game__price">от 590₽</p>
                     <button className="card_game__button">Перейти</button>
                 </div>
             </div>
             </Link>
-        </div> */}
+        </div>
 {/* 
         <div className="card_game">
             <a className="card_game__link" href="/">

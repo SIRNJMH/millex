@@ -28,46 +28,43 @@ function SelectValorant2() {
 
             <div className="select__wrapper_function">
                 <div className="select__wrapper_title">
-                    <img className="select__logo" src={aimbot} alt="aimbot" />
-                    <h2 className="select__title">AIM</h2>
+                    <img className="select__logo" src={eyes} alt="eyes" />
+                    <h2 className="select__title">ESP</h2>
                 </div>
-                <p className="select__text">— Выбор кости - (Head, Neck, Body)</p>
-                <p className="select__text">— Выбор радуиса Аимбота</p>
-                <p className="select__text">— Выбор плавности наводки (Soft, Normal, Hard)</p>
-                <p className="select__text">— Aim Assist Mode</p>
-                <p className="select__text">— Выбор подсветки противников (На какой цвет будет реагировать Aim)</p>
-                <p className="select__text">— Помогает контролировать отдачу от 1% до 50%</p>
+                <p className="select__text">— Box</p>
+                <p className="select__text">— Distance</p>
+                <p className="select__text">— Health</p>
+                <p className="select__text">— Skeleton</p>
             </div>    
                 
             <div className="select__wrapper_function">
                 <div className="select__wrapper_title">
                     <img className="select__logo" src={misc} alt="misc" />
-                    <h2 className="select__title">TRIGGER</h2>
+                    <h2 className="select__title">RADAR</h2>
                 </div>
-                <p className="select__text">— Выбор кнопки Активации</p>
-                <p className="select__text">— Выбор задержки</p>
+                <p className="select__text">— Radar ON / OFF</p>
             </div>    
 
             </div>
             <div className="select__wrapper_prices">
-                <a className="select__wrapper_link" href="https://millex.fun/payitem/1" target="_blank">
+                <a className="select__wrapper_link" href="https://millex.fun/payitem/35" target="_blank">
                     <div className="select__wrapper_prices-price">
-                        <p className="select__wrapper_prices-day">3 дня</p>
-                        <p className="select__wrapper_prices-day">1490₽</p>
+                        <p className="select__wrapper_prices-day">1 день</p>
+                        <p className="select__wrapper_prices-day">590₽</p>
                     </div>
                 </a>
                 
-                <a className="select__wrapper_link" href="https://millex.fun/payitem/2" target="_blank">
+                <a className="select__wrapper_link" href="https://millex.fun/payitem/36" target="_blank">
                 <div className="select__wrapper_prices-price">
                     <p className="select__wrapper_prices-day">7 дней</p>
-                    <p className="select__wrapper_prices-day">2990₽</p>
+                    <p className="select__wrapper_prices-day">2490₽</p>
                 </div>
                 </a>
 
-                <a className="select__wrapper_link" href="https://millex.fun/payitem/3" target="_blank">
+                <a className="select__wrapper_link" href="https://millex.fun/payitem/37" target="_blank">
                     <div className="select__wrapper_prices-price">
                         <p className="select__wrapper_prices-day">30 дней</p>
-                        <p className="select__wrapper_prices-day">5990₽</p>
+                        <p className="select__wrapper_prices-day">4990₽</p>
                     </div>
                 </a>
             </div>
