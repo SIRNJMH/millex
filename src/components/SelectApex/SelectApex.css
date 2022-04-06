@@ -169,5 +169,45 @@
 }
 
 .select__wrapper_link:nth-child(2) {
-    margin: 35px 0 35px;
+    margin: 25px 0 25px;
+}
+
+.select__wrapper_link:nth-child(3) {
+    margin: 0 0 25px;
+}
+
+.select__wrapper_undetect {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4FB56B;
+    margin: 0;
+}
+
+.select__wrapper_risk {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #D77E15;
+    margin: 0;
+}
+
+.select__wrapper_update {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2EA7CD;
+    margin: 0;
+}
+
+.select__wrapper_detect {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #CD382E;
+    margin: 0;
 }

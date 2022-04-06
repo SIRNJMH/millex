@@ -74,20 +74,20 @@ function Tarkov() {
             </div>
             </a>
         </div> */}
-{/* 
-        <div className="card_game">
-            <a className="card_game__link" href="/">
-            <img className="card_game__image" src={eft5} alt="ESCAPE FROM TARKOV" />
+
+        {/* <div className="card_game">
+            <Link className="card_game__link" to="/tarkov/che">
+            <img className="card_game__image" src={eft4} alt="ESCAPE FROM TARKOV" />
             <div className="card_game__wrapper">
-                <p className="card_game__title">VIKING 3 ДНЯ</p>
+                <p className="card_game__title">Какое-то название</p>
                 <div className="card_game__wrap">
-                    <p className="card_game__price">690₽</p>
-                    <button className="card_game__button">КУПИТЬ</button>
+                    <p className="card_game__price">от 690₽</p>
+                    <button className="card_game__button">Перейти</button>
                 </div>
             </div>
-            </a>
-        </div>
-
+            </Link>
+        </div> */}
+    {/*
         <div className="card_game">
             <a className="card_game__link" href="/">
             <img className="card_game__image" src={eft6} alt="ESCAPE FROM TARKOV" />

@@ -48,6 +48,7 @@ function SelectValorant2() {
 
             </div>
             <div className="select__wrapper_prices">
+                <h2 className="select__wrapper_undetect">UNDETECTED</h2>
                 <a className="select__wrapper_link" href="https://millex.fun/payitem/35" target="_blank">
                     <div className="select__wrapper_prices-price">
                         <p className="select__wrapper_prices-day">1 день</p>

@@ -14,9 +14,11 @@ import Spoofer from '../Spoofer/Spoofer';
 import Guaranty from "../Guaranty/Guaranty";
 import SelectApex from "../SelectApex/SelectApex";
 import SelectApex2 from "../SelectApex2/SelectApex2";
+import SelectApex3 from "../SelectApex3/SelectApex3";
 import SelectTarkov from "../SelectTarkov/SelectTarkov";
 import SelectTarkov2 from "../SelectTarkov2/SelectTarkov2";
 import SelectTarkov3 from "../SelectTarkov3/SelectTarkov3";
+import SelectTarkov4 from "../SelectTarkov4/SelectTarkov4";
 import SelectValorant from "../SelectValorant/SelectValorant";
 import SelectValorant2 from "../SelectValorant2/SelectValorant2";
 import SelectFortnite from "../SelectFortnite/SelectFortnite";
@@ -80,6 +82,11 @@ function App() {
           <SelectApex />
           <Footer />
         </Route>
+        <Route path="/apex/fortnade" exact>
+          <Header />
+          <SelectApex3 />
+          <Footer />
+        </Route>
         <Route path="/tarkov/neko" exact>
           <Header />
           <SelectTarkov />
@@ -95,6 +102,11 @@ function App() {
           <SelectTarkov3 />
           <Footer />
         </Route>
+        {/* <Route path="/tarkov/che" exact>
+          <Header />
+          <SelectTarkov4 />
+        <Footer />
+        </Route> */}
         <Route path="/valorant/aimbot" exact>
           <Header />
           <SelectValorant />

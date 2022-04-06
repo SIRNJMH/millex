@@ -43,9 +43,11 @@
 }
 
 .card_game__container {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 0 150px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-gap: 30px;
+    justify-content: center;
+    padding-bottom: 150px;
 }
 
 .card_game__link {
@@ -57,9 +59,9 @@
     width: 300px;
     height: 300px;
     border-radius: 30px;
-    margin: 0 25px 0 25px;
+    /* margin: 0 25px 0 25px; */
 }
-
+/* 
 @media screen and (max-width: 700px) {
     .card_game {
         margin-top: 25px;
@@ -67,29 +69,13 @@
     .card_game:first-of-type {
         margin-top: 0;
     }
-}
+} */
 
 .card_game:hover .card_game__button {
     transition: linear 0.4s;
     background-color: #4FB56B;
     color: white;
     border: none;
-}
-
-.card_game:nth-child(5) {
-    margin-top: 50px;
-}
-
-.card_game:nth-child(6) {
-    margin-top: 50px;
-}
-
-.card_game:nth-child(7) {
-    margin-top: 50px;
-}
-
-.card_game:nth-child(8) {
-    margin-top: 50px;
 }
 
 .card_game__image {

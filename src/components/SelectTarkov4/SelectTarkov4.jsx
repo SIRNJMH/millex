@@ -1,13 +1,13 @@
 import React from 'react';
-import './SelectTarkov.css';
-import tarkov from '../../images/tarkov12.png';
+import './SelectTarkov4.css';
+import tarkov from '../../images/tarkovsel2.png';
 import eyes from '../../images/eyes.svg';
 import aimbot from '../../images/aimbot.svg';
 import misc from '../../images/misc.svg';
 import loot from '../../images/loot.svg';
 import { Link } from 'react-router-dom';
 
-function SelectTarkov() {
+function SelectTarkov4() {
   return (
     <div className="select">
       <div className="select__container">
@@ -114,7 +114,6 @@ function SelectTarkov() {
                 </div>
             </div>
             <div className="select__wrapper_prices">
-                <h2 className="select__wrapper_undetect">UNDETECTED</h2>
                 <a className="select__wrapper_link" href="https://www.millex.fun/payitem/7" target="_blank">
                     <div className="select__wrapper_prices-price">
                         <p className="select__wrapper_prices-day">1 день</p>
@@ -142,4 +141,4 @@ function SelectTarkov() {
   );
 }
 
-export default SelectTarkov;
+export default SelectTarkov4;

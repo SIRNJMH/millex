@@ -2,7 +2,7 @@ import React from 'react';
 import './Apex.css';
 import apex1 from '../../images/apex1.png';
 import apex2 from '../../images/apex2.png';
-import apex3 from '../../images/apex3.png';
+import apex4 from '../../images/apex4.png';
 import { Link } from 'react-router-dom';
 // import arrow from '../../images/arrow.svg';
 
@@ -46,18 +46,18 @@ function Apex() {
             </Link>
         </div>
 
-        {/* <div className="card_game">
-            <a className="card_game__link" href="/">
-            <img className="card_game__image" src={apex3} alt="APEX"/>
+        <div className="card_game">
+            <Link className="card_game__link" to="/apex/fortnade">
+            <img className="card_game__image" src={apex4} alt="APEX"/>
             <div className="card_game__wrapper">
-                <p className="card_game__title">30 ДНЕЙ</p>
+                <p className="card_game__title">FORTNADE</p>
                 <div className="card_game__wrap">
-                    <p className="card_game__price">1290₽</p>
-                    <button className="card_game__button">КУПИТЬ</button>
+                    <p className="card_game__price">от 190₽</p>
+                    <button className="card_game__button">Перейти</button>
                 </div>
             </div>
-            </a>
-        </div> */}
+            </Link>
+        </div>
 
         </div>
       </div>
