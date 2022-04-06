@@ -72,7 +72,7 @@ function App() {
           <Guaranty />
           <Footer />
         </Route>
-        <Route path="/apex/full" exact>
+        <Route path="/apex/fortnade" exact>
           <Header />
           <SelectApex2 />
           <Footer />
@@ -82,7 +82,7 @@ function App() {
           <SelectApex />
           <Footer />
         </Route>
-        <Route path="/apex/fortnade" exact>
+        <Route path="/apex/pro" exact>
           <Header />
           <SelectApex3 />
           <Footer />

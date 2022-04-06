@@ -34,10 +34,10 @@ function Apex() {
         </div>
 
         <div className="card_game">
-            <Link className="card_game__link" to="/apex/full">
+            <Link className="card_game__link" to="/apex/pro">
             <img className="card_game__image" src={apex1} alt="APEX"/>
             <div className="card_game__wrapper">
-                <p className="card_game__title">MILLEX APEX</p>
+                <p className="card_game__title">MILLEX PRO</p>
                 <div className="card_game__wrap">
                     <p className="card_game__price">от 190₽</p>
                     <button className="card_game__button">Перейти</button>
