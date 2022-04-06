@@ -102,11 +102,11 @@ function App() {
           <SelectTarkov3 />
           <Footer />
         </Route>
-        {/* <Route path="/tarkov/che" exact>
+        <Route path="/tarkov/millex" exact>
           <Header />
           <SelectTarkov4 />
         <Footer />
-        </Route> */}
+        </Route>
         <Route path="/valorant/aimbot" exact>
           <Header />
           <SelectValorant />
