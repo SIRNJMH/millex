@@ -21,6 +21,19 @@ function Apex() {
         <div className="card_game__container">
 
         <div className="card_game">
+            <Link className="card_game__link" to="/apex/fortnade">
+            <img className="card_game__image" src={apex4} alt="APEX"/>
+            <div className="card_game__wrapper">
+                <p className="card_game__title">FORTNADE</p>
+                <div className="card_game__wrap">
+                    <p className="card_game__price">от 190₽</p>
+                    <button className="card_game__button">Перейти</button>
+                </div>
+            </div>
+            </Link>
+        </div>
+
+        <div className="card_game">
             <Link className="card_game__link" to="/apex/full">
             <img className="card_game__image" src={apex1} alt="APEX"/>
             <div className="card_game__wrapper">
@@ -40,19 +53,6 @@ function Apex() {
                 <p className="card_game__title">MILLEX VISUAL</p>
                 <div className="card_game__wrap">
                     <p className="card_game__price">от 89₽</p>
-                    <button className="card_game__button">Перейти</button>
-                </div>
-            </div>
-            </Link>
-        </div>
-
-        <div className="card_game">
-            <Link className="card_game__link" to="/apex/fortnade">
-            <img className="card_game__image" src={apex4} alt="APEX"/>
-            <div className="card_game__wrapper">
-                <p className="card_game__title">FORTNADE</p>
-                <div className="card_game__wrap">
-                    <p className="card_game__price">от 190₽</p>
                     <button className="card_game__button">Перейти</button>
                 </div>
             </div>
