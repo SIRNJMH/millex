@@ -1,6 +1,6 @@
 import React from 'react';
 import './SelectApex3.css';
-import apexselect from '../../images/apex12.png';
+import apexselect from '../../images/apex11.png';
 import eyes from '../../images/eyes.svg';
 import aimbot from '../../images/aimbot.svg';
 import misc from '../../images/misc.svg';
