@@ -7,6 +7,7 @@ import val from '../../images/val.png';
 import fort from '../../images/fort.png';
 import rust from '../../images/rust.png';
 import spoof from '../../images/spoof.png';
+import pubg from '../../images/pubg1.png';
 import soon from '../../images/soon.png';
 
 
@@ -75,12 +76,25 @@ function Cards() {
                 <div className="card__wrapper">
                     <p className="card__title">RUST</p>
                     <div className="card__wrap">
-                        <p className="card__price">от 290₽</p>
+                        <p className="card__price">от 349₽</p>
                         <button className="card__button">Перейти</button>
                     </div>
                 </div>
                 </Link>
             </div>
+
+            {/* <div className="card">
+                <Link className="card__link" to="/pubg">
+                <img className="card__image" src={pubg} alt="pubg" />
+                <div className="card__wrapper">
+                    <p className="card__title">PUBG</p>
+                    <div className="card__wrap">
+                        <p className="card__price">от 490₽</p>
+                        <button className="card__button">Перейти</button>
+                    </div>
+                </div>
+                </Link>
+            </div> */}
 
             <div className="card">
                 <Link className="card__link" to="/spoofer">
@@ -116,7 +130,7 @@ function Cards() {
                     {/* <div className="card__wrap">
                         <p className="card__price">от 1290₽</p>
                         <button className="card__button">Перейти</button>
-                    </div> */}
+                        /div> */}
                 </div>
                 </Link>
             </div>

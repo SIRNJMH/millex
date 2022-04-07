@@ -103,7 +103,7 @@ function SelectFortnite() {
                 <a className="select__wrapper_link" href="https://millex.fun/payitem/25" target="_blank">
                     <div className="select__wrapper_prices-price">
                         <p className="select__wrapper_prices-day">1 день</p>
-                        <p className="select__wrapper_prices-day">290₽</p>
+                        <p className="select__wrapper_prices-day">349₽</p>
                     </div>
                 </a>
                 
