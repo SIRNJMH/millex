@@ -41,7 +41,7 @@ function Tarkov() {
             <div className="card_game__wrapper">
                 <p className="card_game__title">VIKING</p>
                 <div className="card_game__wrap">
-                    <p className="card_game__price">от 490₽</p>
+                    <p className="card_game__price">от 690₽</p>
                     <button className="card_game__button">Перейти</button>
                 </div>
             </div>
