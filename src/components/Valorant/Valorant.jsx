@@ -28,7 +28,7 @@ function Valorant() {
             <div className="card_game__wrapper">
                 <p className="card_game__title">MILLEX AIMBOT</p>
                 <div className="card_game__wrap">
-                    <p className="card_game__price">от 440₽</p>
+                    <p className="card_game__price">от 390₽</p>
                     <button className="card_game__button">Перейти</button>
                 </div>
             </div>
@@ -47,19 +47,21 @@ function Valorant() {
             </div>
             </Link>
         </div>
-{/* 
-        <div className="card_game">
-            <a className="card_game__link" href="/">
-            <img className="card_game__image" src={val3} alt="VALORANT"/>
+ 
+        {/* <div className="card_game">
+            <Link className="card_game__link" to="/valorant/pro">
+            <img className="card_game__image" src={val4} alt="VALORANT"/>
             <div className="card_game__wrapper">
-                <p className="card_game__title">30 ДНЕЙ</p>
+                <p className="card_game__title">MILLEX PRO</p>
                 <div className="card_game__wrap">
-                    <p className="card_game__price">2990₽</p>
-                    <button className="card_game__button">КУПИТЬ</button>
+                    <p className="card_game__price">от 2990₽</p>
+                    <button className="card_game__button">Перейти</button>
                 </div>
             </div>
-            </a>
-        </div>
+            </Link>
+        </div> */}
+
+        {/*
 
         <div className="card_game">
             <a className="card_game__link" href="/">

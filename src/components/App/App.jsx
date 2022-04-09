@@ -21,6 +21,7 @@ import SelectTarkov3 from "../SelectTarkov3/SelectTarkov3";
 import SelectTarkov4 from "../SelectTarkov4/SelectTarkov4";
 import SelectValorant from "../SelectValorant/SelectValorant";
 import SelectValorant2 from "../SelectValorant2/SelectValorant2";
+import SelectValorant3 from "../SelectValorant3/SelectValorant3";
 import SelectFortnite from "../SelectFortnite/SelectFortnite";
 import SelectRust from "../SelectRust/SelectRust";
 import SelectRust2 from "../SelectRust2/SelectRust2";
@@ -117,6 +118,11 @@ function App() {
         <Route path="/valorant/esp" exact>
           <Header />
           <SelectValorant2 />
+          <Footer />
+        </Route>
+        <Route path="/valorant/pro" exact>
+          <Header />
+          <SelectValorant3 />
           <Footer />
         </Route>
         <Route path="/fortnite/millex" exact>
