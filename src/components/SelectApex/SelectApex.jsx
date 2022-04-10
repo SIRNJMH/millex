@@ -28,13 +28,33 @@ function SelectApex() {
                         <img className="select__logo" src={eyes} alt="eyes" />
                         <h2 className="select__title">ESP</h2>
                     </div>
-                    <p className="select__text">— Item Glow</p>
+                    <p className="select__text">— Enable</p>
+                    <p className="select__text">— Visible only</p>
+                    <p className="select__text">— Draw box</p>
+                    <p className="select__text">— Draw health</p>
+                    <p className="select__text">— Draw armor</p>
+                    <p className="select__text">— Draw weapon</p>
+                    <p className="select__text">— Draw distance</p>
+                    <p className="select__text">— Draw snap line</p>
+                    <p className="select__text">— Draw weapon</p>
+                    <p className="select__text">— Draw improvement</p>
+                    <p className="select__text">— Draw gear</p>
+                    <p className="select__text">— Draw medic</p>
+                    <p className="select__text">— Range</p>
+                    <p className="select__text">— Rarity</p>
+                </div>
+                {/* <div className="select__wrapper_function">
+                    <div className="select__wrapper_title">
+                        <img className="select__logo" src={eyes} alt="eyes" />
+                        <h2 className="select__title">ESP</h2>
+                    </div>
+                    <p className="select__text">— type light</p>
                     <p className="select__text">— Glow Style</p>
                     <p className="select__text">— Border Glow Style</p>
                     <p className="select__text">— Border Size</p>
                     <p className="select__text">— Visible / Invisible</p>
                     <p className="select__text">— Color mode</p>
-                </div>    
+                </div>      */}
             </div>
             <div className="select__wrapper_prices">
 
@@ -43,21 +63,21 @@ function SelectApex() {
                 <a className="select__wrapper_link" href="https://www.millex.fun/payitem/28" target="_blank">
                     <div className="select__wrapper_prices-price">
                         <p className="select__wrapper_prices-day">1 день</p>
-                        <p className="select__wrapper_prices-day">89₽</p>
+                        <p className="select__wrapper_prices-day">99₽</p>
                     </div>
                 </a>
                 
                 <a className="select__wrapper_link" href="https://www.millex.fun/payitem/29" target="_blank">
                 <div className="select__wrapper_prices-price">
                     <p className="select__wrapper_prices-day">7 дней</p>
-                    <p className="select__wrapper_prices-day">340₽</p>
+                    <p className="select__wrapper_prices-day">490₽</p>
                 </div>
                 </a>
 
                 <a className="select__wrapper_link" href="https://www.millex.fun/payitem/30" target="_blank">
                     <div className="select__wrapper_prices-price">
                         <p className="select__wrapper_prices-day">30 дней</p>
-                        <p className="select__wrapper_prices-day">790₽</p>
+                        <p className="select__wrapper_prices-day">890₽</p>
                     </div>
                 </a>
             </div>

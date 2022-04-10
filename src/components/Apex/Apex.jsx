@@ -52,7 +52,7 @@ function Apex() {
             <div className="card_game__wrapper">
                 <p className="card_game__title">MILLEX VISUAL</p>
                 <div className="card_game__wrap">
-                    <p className="card_game__price">от 89₽</p>
+                    <p className="card_game__price">от 99₽</p>
                     <button className="card_game__button">Перейти</button>
                 </div>
             </div>

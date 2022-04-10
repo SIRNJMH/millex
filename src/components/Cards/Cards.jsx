@@ -25,7 +25,7 @@ function Cards() {
                 <div className="card__wrapper">
                     <p className="card__title">APEX LEGENDS</p>
                     <div className="card__wrap">
-                        <p className="card__price">от 89₽</p>
+                        <p className="card__price">от 99₽</p>
                         <button className="card__button">Перейти</button>
                     </div>
                 </div>
