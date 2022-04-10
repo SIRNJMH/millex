@@ -26,7 +26,9 @@ import SelectFortnite from "../SelectFortnite/SelectFortnite";
 import SelectRust from "../SelectRust/SelectRust";
 import SelectRust2 from "../SelectRust2/SelectRust2";
 import Pubg from "../Pubg/Pubg";
+import Scum from "../Scum/Scum";
 import SelectPubg from "../SelectPubg/SelectPubg";
+import SelectScum from "../SelectScum/SelectScum";
 import SelectSpoofer from "../SelectSpoofer/SelectSpoofer";
 import NotFound from "../NotFound/NotFound";
 
@@ -145,9 +147,19 @@ function App() {
           <Pubg />
           <Footer />
         </Route>
+        <Route path="/scum" exact>
+          <Header />
+          <Scum />
+          <Footer />
+        </Route>
         <Route path="/pubg/millex" exact>
           <Header />
           <SelectPubg />
+          <Footer />
+        </Route>
+        <Route path="/scum/millex" exact>
+          <Header />
+          <SelectScum/>
           <Footer />
         </Route>
         <Route path="/spoofer/millex" exact>

@@ -8,6 +8,7 @@ import fort from '../../images/fort.png';
 import rust from '../../images/rust.png';
 import spoof from '../../images/spoof.png';
 import pubg from '../../images/pubg1.png';
+import scum from '../../images/scum3.png';
 import soon from '../../images/soon.png';
 
 
@@ -110,14 +111,14 @@ function Cards() {
             </div>
 
             <div className="card">
-                <Link className="card__link" to="/spoofer">
-                <img className="card__image" src={soon} alt="SOON" />
+                <Link className="card__link" to="/scum">
+                <img className="card__image" src={scum} alt="pubg" />
                 <div className="card__wrapper">
-                    <p className="card__title">CARD SLEEP</p>
-                    {/* <div className="card__wrap">
-                        <p className="card__price">от 1290₽</p>
+                    <p className="card__title">SCUM</p>
+                    <div className="card__wrap">
+                        <p className="card__price">от 290₽</p>
                         <button className="card__button">Перейти</button>
-                    </div> */}
+                    </div>
                 </div>
                 </Link>
             </div>
