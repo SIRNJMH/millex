@@ -36,6 +36,7 @@ function App() {
   return (
     <div className="page">
       <Switch>
+        
         <Route path="/" exact>
           <Header />
           <Image />

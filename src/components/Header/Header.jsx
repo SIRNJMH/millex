@@ -10,7 +10,10 @@ function Header() {
       <nav className="header__container">
         <div className="header__wrapper">
           <Link className="header__link" to="/"><div className="header__logo" /></Link>
-          <Link2 className="header__link" to="game" smooth={true} offset={70} duration={500}><p className="header__text">Каталог игр</p></Link2>
+          {/* <Link2 className="header__link" to="game" smooth={true} offset={70} duration={500}><p className="header__text">Каталог игр</p></Link2> */}
+          <Link2 className="header__link" to="game" smooth={true} offset={70} duration={500}>
+            <NavLink className="header__link" to="/"><p className="header__text">Каталог игр</p></NavLink>
+          </Link2>
           <a className="header__link" href="https://discord.gg/millexcheats" target="_blank"><p className="header__text">Поддержка</p></a>
           <Link className="header__link" to="/guaranty"><p className="header__text">Наши гарантии</p></Link>
         </div>
