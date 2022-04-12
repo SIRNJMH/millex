@@ -25,6 +25,7 @@ import SelectValorant3 from "../SelectValorant3/SelectValorant3";
 import SelectFortnite from "../SelectFortnite/SelectFortnite";
 import SelectRust from "../SelectRust/SelectRust";
 import SelectRust2 from "../SelectRust2/SelectRust2";
+import SelectRust3 from "../SelectRust3/SelectRust3";
 import Pubg from "../Pubg/Pubg";
 import Scum from "../Scum/Scum";
 import SelectPubg from "../SelectPubg/SelectPubg";
@@ -141,6 +142,11 @@ function App() {
         <Route path="/rust/hyperaim" exact>
           <Header />
           <SelectRust2 />
+          <Footer />
+        </Route>
+        <Route path="/rust/neko" exact>
+          <Header />
+          <SelectRust3 />
           <Footer />
         </Route>
         <Route path="/pubg" exact>

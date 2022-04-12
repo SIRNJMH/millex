@@ -2,7 +2,7 @@ import React from 'react';
 import './Rust.css';
 import rust1 from '../../images/rust1.png';
 import rust2 from '../../images/rust2.png';
-import rust3 from '../../images/rust3.png';
+import rust4 from '../../images/rust4.png';
 import { Link } from 'react-router-dom';
 
 function Rust() {
@@ -37,6 +37,19 @@ function Rust() {
             <img className="card_game__image" src={rust1} alt="RUST" />
             <div className="card_game__wrapper">
                 <p className="card_game__title">HYPERAIM.GG</p>
+                <div className="card_game__wrap">
+                    <p className="card_game__price">от 490₽</p>
+                    <button className="card_game__button">Перейти</button>
+                </div>
+            </div>
+            </Link>
+        </div>
+
+        <div className="card_game">
+            <Link className="card_game__link" to="/rust/neko">
+            <img className="card_game__image" src={rust4} alt="RUST" />
+            <div className="card_game__wrapper">
+                <p className="card_game__title">NEKO RUST</p>
                 <div className="card_game__wrap">
                     <p className="card_game__price">от 490₽</p>
                     <button className="card_game__button">Перейти</button>
