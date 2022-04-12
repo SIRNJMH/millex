@@ -74,7 +74,7 @@ function SelectTarkov4() {
                 <p className="select__text">— Thermal visor</p>
                 </div>
             </div>
-            <div className="select__wrapper_prices">
+            <div className="select__wrapper_prices_tarkov">
 
                 <h2 className="select__wrapper_undetect">UNDETECTED</h2>
 
@@ -98,6 +98,14 @@ function SelectTarkov4() {
                         <p className="select__wrapper_prices-day">1690₽</p>
                     </div>
                 </a>
+
+                <a className="select__wrapper_link" href="https://www.millex.fun/payitem/57" target="_blank">
+                    <div className="select__wrapper_prices-price">
+                        <p className="select__wrapper_prices-day">30 дней</p>
+                        <p className="select__wrapper_prices-day">4490₽</p>
+                    </div>
+                </a>
+
             </div>
         </div>
       </div>

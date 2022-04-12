@@ -1,0 +1,10 @@
+.select__wrapper_prices_tarkov {
+    width: 400px;
+    height: 400px;
+    background-color: #383838;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
