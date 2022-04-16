@@ -10,6 +10,7 @@ import spoof from '../../images/spoof.png';
 import pubg from '../../images/pubg1.png';
 import scum from '../../images/scum3.png';
 import soon from '../../images/soon.png';
+import dayz from '../../images/dayz1.png';
 
 
 function Cards() {
@@ -124,14 +125,14 @@ function Cards() {
             </div>
 
             <div className="card">
-                <Link className="card__link" to="/spoofer">
-                <img className="card__image" src={soon} alt="SOON" />
+                <Link className="card__link" to="/dayz">
+                <img className="card__image" src={dayz} alt="dayz" />
                 <div className="card__wrapper">
-                    <p className="card__title">CARD SLEEP</p>
-                    {/* <div className="card__wrap">
-                        <p className="card__price">от 1290₽</p>
+                    <p className="card__title">MILLEX DAYZ</p>
+                    <div className="card__wrap">
+                        <p className="card__price">от 290₽</p>
                         <button className="card__button">Перейти</button>
-                        /div> */}
+                    </div>
                 </div>
                 </Link>
             </div>

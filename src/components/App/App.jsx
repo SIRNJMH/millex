@@ -11,6 +11,9 @@ import Valorant from '../Valorant/Valorant';
 import Fortnite from '../Fortnite/Fortnite';
 import Rust from '../Rust/Rust';
 import Spoofer from '../Spoofer/Spoofer';
+import Pubg from "../Pubg/Pubg";
+import Scum from "../Scum/Scum";
+import Dayz from "../Dayz/Dayz";
 import Guaranty from "../Guaranty/Guaranty";
 import SelectApex from "../SelectApex/SelectApex";
 import SelectApex2 from "../SelectApex2/SelectApex2";
@@ -26,11 +29,10 @@ import SelectFortnite from "../SelectFortnite/SelectFortnite";
 import SelectRust from "../SelectRust/SelectRust";
 import SelectRust2 from "../SelectRust2/SelectRust2";
 import SelectRust3 from "../SelectRust3/SelectRust3";
-import Pubg from "../Pubg/Pubg";
-import Scum from "../Scum/Scum";
 import SelectPubg from "../SelectPubg/SelectPubg";
 import SelectScum from "../SelectScum/SelectScum";
 import SelectSpoofer from "../SelectSpoofer/SelectSpoofer";
+import SelectDayz from "../SelectDayz/SelectDayz";
 import NotFound from "../NotFound/NotFound";
 
 function App() {
@@ -72,6 +74,21 @@ function App() {
         <Route path="/spoofer" exact>
           <Header />
           <Spoofer />
+          <Footer />
+        </Route>
+        <Route path="/pubg" exact>
+          <Header />
+          <Pubg />
+          <Footer />
+        </Route>
+        <Route path="/scum" exact>
+          <Header />
+          <Scum />
+          <Footer />
+        </Route>
+        <Route path="/dayz" exact>
+          <Header />
+          <Dayz />
           <Footer />
         </Route>
         <Route path="/guaranty" exact>
@@ -149,16 +166,6 @@ function App() {
           <SelectRust3 />
           <Footer />
         </Route>
-        <Route path="/pubg" exact>
-          <Header />
-          <Pubg />
-          <Footer />
-        </Route>
-        <Route path="/scum" exact>
-          <Header />
-          <Scum />
-          <Footer />
-        </Route>
         <Route path="/pubg/millex" exact>
           <Header />
           <SelectPubg />
@@ -167,6 +174,11 @@ function App() {
         <Route path="/scum/millex" exact>
           <Header />
           <SelectScum/>
+          <Footer />
+        </Route>
+        <Route path="/dayz/millex" exact>
+          <Header />
+          <SelectDayz />
           <Footer />
         </Route>
         <Route path="/spoofer/millex" exact>
