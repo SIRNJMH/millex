@@ -128,7 +128,7 @@ function Cards() {
                 <Link className="card__link" to="/dayz">
                 <img className="card__image" src={dayz} alt="dayz" />
                 <div className="card__wrapper">
-                    <p className="card__title">MILLEX DAYZ</p>
+                    <p className="card__title">DAYZ</p>
                     <div className="card__wrap">
                         <p className="card__price">от 290₽</p>
                         <button className="card__button">Перейти</button>
