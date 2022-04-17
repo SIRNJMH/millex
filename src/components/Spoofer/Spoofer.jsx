@@ -1,6 +1,7 @@
 import React from 'react';
 import './Spoofer.css';
 import spoof1 from '../../images/spoof1.png';
+import spoof2 from '../../images/spoof2.png';
 import { Link } from 'react-router-dom';
 
 function Spoofer() {
@@ -24,6 +25,19 @@ function Spoofer() {
                 <p className="card_game__title">MILLEX SPOOFER</p>
                 <div className="card_game__wrap">
                     <p className="card_game__price">от 1990₽</p>
+                    <button className="card_game__button">Перейти</button>
+                </div>
+            </div>
+            </Link>
+        </div>
+
+        <div className="card_game">
+            <Link className="card_game__link" to="/spoofer/tarkov">
+            <img className="card_game__image" src={spoof2} alt="Spoofer" />
+            <div className="card_game__wrapper">
+                <p className="card_game__title">SPOOFER FOR TARKOV</p>
+                <div className="card_game__wrap">
+                    <p className="card_game__price">от 990₽</p>
                     <button className="card_game__button">Перейти</button>
                 </div>
             </div>

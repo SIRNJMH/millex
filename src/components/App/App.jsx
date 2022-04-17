@@ -32,6 +32,7 @@ import SelectRust3 from "../SelectRust3/SelectRust3";
 import SelectPubg from "../SelectPubg/SelectPubg";
 import SelectScum from "../SelectScum/SelectScum";
 import SelectSpoofer from "../SelectSpoofer/SelectSpoofer";
+import SelectSpoofer2 from "../SelectSpoofer2/SelectSpoofer2";
 import SelectDayz from "../SelectDayz/SelectDayz";
 import NotFound from "../NotFound/NotFound";
 
@@ -184,6 +185,11 @@ function App() {
         <Route path="/spoofer/millex" exact>
           <Header />
           <SelectSpoofer />
+          <Footer />
+        </Route>
+        <Route path="/spoofer/tarkov" exact>
+          <Header />
+          <SelectSpoofer2 />
           <Footer />
         </Route>
         <Route path="*" exact>

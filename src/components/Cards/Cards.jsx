@@ -104,7 +104,7 @@ function Cards() {
                 <div className="card__wrapper">
                     <p className="card__title">SPOOFER</p>
                     <div className="card__wrap">
-                        <p className="card__price">от 1990₽</p>
+                        <p className="card__price">от 990₽</p>
                         <button className="card__button">Перейти</button>
                     </div>
                 </div>

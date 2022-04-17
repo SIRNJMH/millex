@@ -1,11 +1,11 @@
 import React from 'react';
-import './SelectSpoofer.css';
-import spoofer from '../../images/spoof11.png';
+import './SelectSpoofer2.css';
+import spoofer from '../../images/spoof3.png';
 import eyes from '../../images/eyes.svg';
 import computer from '../../images/computer.svg';
 import { Link } from 'react-router-dom';
 
-function SelectSpoofer() {
+function SelectSpoofer2() {
   return (
     <div className="select">
       <div className="select__container">
@@ -15,7 +15,7 @@ function SelectSpoofer() {
                     <path className="cards_game__arrow" d="M11.7338 18C10.945 18.0008 10.18 17.7572 9.56738 17.3101L1.06849 10.9957C0.735212 10.7569 0.46606 10.4535 0.281066 10.1081C0.0960718 9.76276 0 9.38429 0 9.00087C0 8.61746 0.0960718 8.23899 0.281066 7.89362C0.46606 7.54825 0.735212 7.24487 1.06849 7.00607L9.56738 0.691685C10.079 0.322712 10.6956 0.0905219 11.3467 0.0215753C11.9978 -0.0473713 12.6574 0.0496979 13.2502 0.301722C13.7655 0.506122 14.2044 0.83968 14.5147 1.26256C14.825 1.68544 14.9934 2.17976 15 2.68649V15.3153C14.9934 15.822 14.825 16.3163 14.5147 16.7392C14.2044 17.1621 13.7655 17.4956 13.2502 17.7C12.7738 17.895 12.2571 17.9972 11.7338 18V18Z" fill="white"/>
                 </svg>
             </Link>
-            <p className="cards_game__title">MILLEX SPOOFER</p>
+            <p className="cards_game__title">SPOOFER FOR TARKOV</p>
         </div>
         <div className="select__wrap">
             <img className="select__image" src={spoofer} alt="VALORANT" />
@@ -29,16 +29,22 @@ function SelectSpoofer() {
                     <img className="select__logo" src={computer} alt="computer" />
                     <h2 className="select__title">SPOOF</h2>
                 </div>
-                <p className="select__text">— Одноразовый спуфер, подойдет для множества игр, в том числе Valorant.</p>
+                <p className="select__text">— Спуфер для смены железы, подходит для игры Escape From Tarkov</p>
                 </div>
 
             </div>
             <div className="select__wrapper_prices">
               <h2 className="select__wrapper_undetect">UNDETECTED</h2>
-                <a className="select__wrapper_link" href="https://millex.fun/payitem/34" target="_blank">
+                <a className="select__wrapper_link" href="https://millex.fun/payitem/65" target="_blank">
                     <div className="select__wrapper_prices-price">
-                        <p className="select__wrapper_prices-day">Одноразовый</p>
-                        <p className="select__wrapper_prices-day">1990₽</p>
+                        <p className="select__wrapper_prices-day">1 день</p>
+                        <p className="select__wrapper_prices-day">190₽</p>
+                    </div>
+                </a>
+                <a className="select__wrapper_link" href="https://millex.fun/payitem/66" target="_blank">
+                    <div className="select__wrapper_prices-price">
+                        <p className="select__wrapper_prices-day">30 дней</p>
+                        <p className="select__wrapper_prices-day">990₽</p>
                     </div>
                 </a>
             </div>
@@ -49,4 +55,4 @@ function SelectSpoofer() {
   );
 }
 
-export default SelectSpoofer;
+export default SelectSpoofer2;
