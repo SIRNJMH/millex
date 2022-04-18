@@ -87,7 +87,14 @@ function SelectTarkov2() {
                         <p className="select__wrapper_prices-day">390₽</p>
                     </div>
                 </a> */}
-                <h2 className="select__wrapper_update">ON UPDATE</h2>
+                <h2 className="select__wrapper_undetect">UNDETECTED</h2>
+
+                <a className="select__wrapper_link" href="https://www.millex.fun/payitem/19" target="_blank">
+                <div className="select__wrapper_prices-price">
+                    <p className="select__wrapper_prices-day">1 день</p>
+                    <p className="select__wrapper_prices-day">390₽</p>
+                </div>
+                </a>
                 
                 <a className="select__wrapper_link" href="https://www.millex.fun/payitem/20" target="_blank">
                 <div className="select__wrapper_prices-price">
