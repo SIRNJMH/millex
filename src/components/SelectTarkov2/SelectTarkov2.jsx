@@ -99,14 +99,14 @@ function SelectTarkov2() {
                 <a className="select__wrapper_link" href="https://www.millex.fun/payitem/20" target="_blank">
                 <div className="select__wrapper_prices-price">
                     <p className="select__wrapper_prices-day">7 дней</p>
-                    <p className="select__wrapper_prices-day">990₽</p>
+                    <p className="select__wrapper_prices-day">1490₽</p>
                 </div>
                 </a>
 
                 <a className="select__wrapper_link" href="https://www.millex.fun/payitem/21" target="_blank">
                     <div className="select__wrapper_prices-price">
                         <p className="select__wrapper_prices-day">30 дней</p>
-                        <p className="select__wrapper_prices-day">1990₽</p>
+                        <p className="select__wrapper_prices-day">2990₽</p>
                     </div>
                 </a>
             </div>
